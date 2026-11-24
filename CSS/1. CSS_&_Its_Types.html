@@ -1,0 +1,63 @@
+
+<!--CSS:
+    - CSS stands for "Cascade Style Sheet", HTML is a structure of webpage and CSS is the styling properties for html elements. 
+    - Their are 3 Types of CSS or ways of doing CSS to a webpage:
+    - 1. Inline CSS (CSS inside HTML tag) not recommended to avoid repitation and complexity.
+    - 2. Creating seperate "Style" tag in head tag of HTML file.
+    - 3. Create a Seperate "StylingSheet.css" file with extension and link it inside HTML file.
+       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and Its Types</title>
+    <!-- 3. Linking the Style.css file to this HTML file using "link" tag: -->
+     <link rel="stylesheet" href="Creating_stylesheet.css"> 
+     
+
+    <!-- 2. Using "<style>"" Tag inside Head. -->
+    <!-- <style>
+        /* without using class in html */
+        p{
+            color: orange;
+        }
+        /* with using class in html */
+        .lorem1{
+            color: red;
+        }
+        /* while using id in html tag */
+        #lorem2{
+            color: rgb(255, 0, 251);
+        } -->
+
+    </style>
+</head>
+
+<!-- <body> 
+    1. Inline CSS: 
+    <div color="orange">
+
+        <h1 color="Green">
+            Front Page
+        </h1>
+        <p color="red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repudiandae adipisci illum eveniet iusto corporis, numquam consequatur aspernatur architecto vel in cum unde sit tenetur quidem explicabo nesciunt doloribus at?
+        </p>
+    </div> -->
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae perspiciatis nisi placeat itaque ab! Cum similique, iste quibusdam tempore ducimus non officiis velit. Enim voluptate perferendis magni? Natus, atque earum?
+    </p>
+
+    <p class="lorem1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae perspiciatis nisi placeat itaque ab! Cum similique, iste quibusdam tempore ducimus non officiis velit. Enim voluptate perferendis magni? Natus, atque earum?
+    </p>
+
+    <p id="lorem2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae perspiciatis nisi placeat itaque ab! Cum similique, iste quibusdam tempore ducimus non officiis velit. Enim voluptate perferendis magni? Natus, atque earum?
+    </p>
+
+</body>
+</html>
